@@ -1,0 +1,39 @@
+.confirmContainer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background-color: rgba(0, 0, 0, 0.1); /* Gray overlay */
+  inset: 0;
+  z-index: 50;
+  color: var(--home-background);
+}
+
+.confirm {
+  background-color: white;
+  border-radius: 0.5rem;
+  width: 500px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  animation: show 0.2s;
+}
+
+.confirm h1 {
+  font-size: 36px;
+  line-height: 43.2px;
+  text-align: start;
+  letter-spacing: normal;
+}
+
+@keyframes show {
+  0% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

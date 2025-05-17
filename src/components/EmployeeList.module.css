@@ -1,0 +1,22 @@
+.list {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 3fr 2fr 2fr 2fr; /* Column widths */
+  border-bottom: 1px solid var(--home-tertiary); /* Horizontal lines between rows */
+  align-items: center; /* Center vertically */
+  padding: 8px;
+  font-size: 16px;
+  line-height: 25.6px;
+  text-align: left;
+  letter-spacing: normal;
+  height: 67px;
+}
+.list:nth-child(1) {
+  border-top: 1px solid var(--home-tertiary); /* Horizontal lines between rows */
+}
+.list:nth-child(odd) {
+  background-color: #f8f8f8;
+}
+
+.list:last-child {
+  border: 0;
+}

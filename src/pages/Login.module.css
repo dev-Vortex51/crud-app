@@ -1,0 +1,27 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 0rem 0 283px;
+  justify-content: center;
+  color: #404040;
+  position: relative;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.login h1 {
+  font-size: 36px;
+  line-height: 43.2px;
+  text-align: start;
+  letter-spacing: normal;
+  margin-bottom: 24px;
+}
+.login .form > label {
+  font-size: 16px;
+  line-height: 25.6px;
+  text-align: start;
+  letter-spacing: normal;
+  font-weight: bold;
+}

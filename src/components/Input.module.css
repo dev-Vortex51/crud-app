@@ -1,0 +1,14 @@
+.input {
+  width: 768px;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid var(--home-tertiary);
+  font-size: 16px;
+  line-height: 16px;
+  outline: none;
+  color: black;
+}
+.input:focus {
+  border: 1px solid var(--home);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px 0px inset, rgb(140, 188, 254) 0px 0px 6px 0px;
+}
