@@ -26,5 +26,5 @@ A simple and elegant CRUD (Create, Read, Update, Delete) application built with 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/react-crud-swal-cssmodule.git
-cd react-crud-swal-cssmodule
+git clone https://github.com/dev-Vortex51/crud-app.git
+cd crud-app
