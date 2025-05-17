@@ -1,25 +1,35 @@
-# React CRUD App with SweetAlert and CSS Modules
+# React CRUD App with SweetAlert, CSS Modules, and Mirage JS
 
-A simple and elegant CRUD (Create, Read, Update, Delete) application built with **React**, **SweetAlert2** for modal alerts, and **CSS Modules** for scoped component styling.
+A simple and elegant CRUD (Create, Read, Update, Delete) application built with **React**, **SweetAlert2** for modal alerts, **CSS Modules** for scoped styling, and **Mirage JS** to simulate a backend API for development.
+
+---
 
 ## 🚀 Features
 
 - ✅ Create, Read, Update, Delete functionality
-- 💡 Clean alert dialogs with SweetAlert2
-- 🧼 Scoped styles using CSS Modules
+- 💡 Clean modal dialogs with SweetAlert2
+- 🧼 Scoped styling using CSS Modules
+- 🌐 Simulated API using Mirage JS (no real backend needed)
 - ⚛️ React Hooks for state management
 - 🔁 Dynamic rendering of item list
+
+---
 
 ## 🛠 Tech Stack
 
 - **React** – UI library
 - **SweetAlert2** – Stylish modal dialogs
+- **Mirage JS** – In-browser mock API
 - **CSS Modules** – Scoped and reusable styles
 - **JavaScript (ES6+)**
 
+---
+
 ## 📸 Screenshots
 
-> *(Add GIFs or images of your app UI here)*
+> *(Add screenshots or demo GIFs of your app here)*
+
+---
 
 ## 🔧 Getting Started
 
@@ -28,6 +38,3 @@ A simple and elegant CRUD (Create, Read, Update, Delete) application built with 
 ```bash
 git clone https://github.com/dev-Vortex51/crud-app.git
 cd crud-app
-
-
-
