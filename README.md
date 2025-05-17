@@ -28,3 +28,15 @@ A simple and elegant CRUD (Create, Read, Update, Delete) application built with 
 ```bash
 git clone https://github.com/dev-Vortex51/crud-app.git
 cd crud-app
+
+### 2. Install Dependencies
+
+```bash
+npm install
+
+
+### 3. Run the App
+
+```bash
+npm run dev
+
